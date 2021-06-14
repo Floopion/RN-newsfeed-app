@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "News Hacker App",
+    "slug": "snack-0398efe4-8419-468d-b3f1-8f2f9ae63c47",
+    "primaryColor": "#333333",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/news.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#333333"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    // add config for adaptive icons
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundImage": "./assets/bgImg.png",
+        "backgroundColor": "#333333"
+      }
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "An App to compile news from all your Favorite Resources"
+  }
+}
